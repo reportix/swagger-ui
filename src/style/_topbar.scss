@@ -2,7 +2,8 @@
 {
     padding: 8px 30px;
 
-    background-color: #89bf04;
+    background-color: #fafafa;
+    border-bottom: 2px solid #d6d6d6;
     .topbar-wrapper
     {
         display: flex;
@@ -20,7 +21,7 @@
 
         flex: 1;
         align-items: center;
-        @include text_headline(#fff);
+        @include text_headline(#006592);
 
         span
         {
@@ -38,7 +39,7 @@
             min-width: 350px;
             margin: 0;
 
-            border: 2px solid #547f00;
+            border: 2px solid #006592;
             border-radius: 4px 0 0 4px;
             outline: none;
         }
@@ -52,7 +53,7 @@
 
             border: none;
             border-radius: 0 4px 4px 0;
-            background: #547f00;
+            background: #006592;
 
             @include text_headline(#fff);
         }
